@@ -1,0 +1,188 @@
+:root {
+  --background-color: #ffffff;
+  --color-primery: #2e2f42;
+  --color-secondary: #434455;
+  --color-action: #4d5ae5;
+  --color-active-action: #404bbf;
+  --color-section: #f4f4fd;
+  --color-portfolio: #e5e5e5;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-secondary);
+  background-color: #ffffff;
+}
+
+/* header */
+.link {
+  text-decoration: none;
+}
+
+.contact {
+  font-style: normal;
+}
+.start {
+  background-color: #ffffff;
+  color: var(--color-primery);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.list {
+  list-style-type: none;
+}
+.action {
+  font-family: "Raleway", sans-serif;
+  color: var(--color-action);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+}
+.span-color {
+  color: var(--color-primery);
+}
+.menu-head {
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: var(--color-primery);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.menu-head:focus {
+  color: var(--color-active-action);
+}
+.menu-head:hover {
+  color: var(--color-active-action);
+  text-decoration: underline var(--color-active-action);
+}
+.contact {
+  text-decoration: none;
+  color: var(--color-secondary);
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.contact:hover {
+  color: var(--color-active-action);
+}
+.contact:focus {
+  color: var(--color-active-action);
+}
+
+/* body */
+
+.hero-section {
+  background-color: var(--color-primery);
+}
+.hero-text {
+  color: var(--background-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.button {
+  font-family: "Roboto", sans-serif;
+  border: none;
+  color: var(--background-color);
+  background-color: var(--color-action);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.button:hover {
+  background-color: var(--color-active-action);
+}
+.button:focus {
+  background-color: var(--color-active-action);
+}
+
+.button-list {
+  font-family: "Roboto", sans-serif;
+  border: none;
+  color: var(--color-action);
+  background-color: var(--color-section);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.button-list:hover {
+  color: var(--background-color);
+  background-color: var(--color-active-action);
+}
+.button-list:focus {
+  color: var(--background-color);
+  background-color: var(--color-active-action);
+}
+
+.title-text-list {
+  color: var(--color-primery);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.main-text {
+  color: var(--color-secondary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.title-text {
+  color: var(--color-primery);
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-seaction {
+  background-color: var(--color-section);
+}
+.team-card {
+  background-color: var(--background-color);
+}
+.team-name {
+  color: var(--color-primery);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.team-profession {
+  color: var(--color-secondary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* footer */
+
+.bottom-section {
+  background-color: var(--color-primery);
+}
+.span-color-secondary {
+  color: var(--color-section);
+}
+.notes {
+  color: var(--color-section);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
