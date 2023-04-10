@@ -14,6 +14,7 @@ html {
   --color-active-action: #404bbf;
   --color-section: #f4f4fd;
   --color-portfolio: #e5e5e5;
+  --color-border-button: #e7e9fc;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -179,7 +180,7 @@ img {
 .button-items {
   border-radius: 4px;
   padding: 12px 24px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--color-border-button);
   font-family: "Roboto", sans-serif;
   border: none;
   color: var(--color-action);
@@ -248,7 +249,7 @@ img {
 }
 .team-seaction {
   background-color: var(--color-section);
-  padding-bottom: 120px;
+  padding-bottom: 120px 0;
 }
 .team-card-list {
   display: flex;
