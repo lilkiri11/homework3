@@ -29,9 +29,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   align-items: center;
-
-  outline: 2px solid palevioletred;
-  outline-offset: -2px;
 }
 
 .header-container {
@@ -120,11 +117,8 @@ img {
 }
 .menu-head:hover {
   color: var(--color-active-action);
-  text-decoration: underline var(--color-active-action);
 }
 .contact {
-  display: flex;
-  align-items: center;
   text-decoration: none;
   color: var(--color-secondary);
   letter-spacing: 0.02em;
@@ -146,6 +140,8 @@ img {
   padding: 188px 0;
 }
 .hero-text {
+  margin: auto;
+  padding: auto;
   max-width: 496px;
   color: var(--background-color);
   font-weight: 700;
@@ -157,6 +153,8 @@ img {
 }
 .button {
   display: block;
+  margin: auto;
+  padding: auto;
   min-width: 169px;
   min-height: 56px;
   border-radius: 4px;
@@ -211,7 +209,6 @@ img {
   width: calc((100% - 72px) / 4);
 }
 .title-text-list {
-  margin-bottom: 8px;
   color: var(--color-primery);
   font-weight: 500;
   font-size: 20px;
@@ -263,7 +260,6 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .team-name {
-  margin-bottom: 8px;
   color: var(--color-primery);
   font-weight: 500;
   font-size: 20px;
@@ -302,6 +298,7 @@ img {
   line-height: 1.17;
 }
 .notes {
+  width: 264px;
   color: var(--color-section);
   font-weight: 400;
   font-size: 16px;
@@ -346,5 +343,4 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
