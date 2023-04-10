@@ -253,7 +253,6 @@ img {
   gap: 24px;
 }
 .team-card {
-  margin-bottom: 8px;
   background-color: var(--background-color);
   width: calc((100% - 72px) / 4);
 }
@@ -262,6 +261,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .team-name {
+  margin-bottom: 8px;
   color: var(--color-primery);
   font-weight: 500;
   font-size: 20px;
