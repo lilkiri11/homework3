@@ -178,6 +178,7 @@ img {
 }
 
 .button-items {
+  border: 1px solid var(--color-border-button);
   border-radius: 4px;
   padding: 12px 24px;
   font-family: "Roboto", sans-serif;
@@ -328,7 +329,6 @@ img {
 }
 
 .button-list {
-  border: 1px solid #e7e9fc;
   display: flex;
   justify-content: center;
   gap: 24px;
