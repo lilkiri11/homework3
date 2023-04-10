@@ -156,7 +156,6 @@ img {
   margin-bottom: 48px;
 }
 .button {
-  border: 1px solid #e7e9fc;
   display: block;
   min-width: 169px;
   min-height: 56px;
@@ -329,6 +328,7 @@ img {
 }
 
 .button-list {
+  border: 1px solid #e7e9fc;
   display: flex;
   justify-content: center;
   gap: 24px;
