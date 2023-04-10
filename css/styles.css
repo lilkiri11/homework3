@@ -180,7 +180,7 @@ img {
 .button-items {
   border-radius: 4px;
   padding: 12px 24px;
-  border: 1px solid var(--color-border-button);
+  border: 1px solid #e7e9fc;
   font-family: "Roboto", sans-serif;
   border: none;
   color: var(--color-action);
@@ -249,7 +249,7 @@ img {
 }
 .team-seaction {
   background-color: var(--color-section);
-  padding-bottom: 120px 0;
+  padding: 120px 0;
 }
 .team-card-list {
   display: flex;
