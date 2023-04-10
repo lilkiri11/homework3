@@ -27,6 +27,7 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  align-items: center;
 
   outline: 2px solid palevioletred;
   outline-offset: -2px;
@@ -66,6 +67,7 @@ img {
   gap: 40px;
 }
 .start {
+  border-bottom: 1px solid #e7e9fc;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -140,8 +142,10 @@ img {
 
 .hero-section {
   background-color: var(--color-primery);
+  padding: 188px 0;
 }
 .hero-text {
+  max-width: 496px;
   color: var(--background-color);
   font-weight: 700;
   font-size: 56px;
@@ -151,10 +155,10 @@ img {
   margin-bottom: 48px;
 }
 .button {
+  display: block;
   min-width: 169px;
   min-height: 56px;
   border-radius: 4px;
-  margin-top: ;
   font-family: "Roboto", sans-serif;
   border: none;
   color: var(--background-color);
@@ -191,8 +195,19 @@ img {
   color: var(--background-color);
   background-color: var(--color-active-action);
 }
-
+.second-section {
+  padding: 120px 0;
+}
+.advantages-list {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
+}
+.advantages-category {
+  width calc((100% - 3 * 24px) / 4);
+}
 .title-text-list {
+  margin-bottom: 8px; 
   color: var(--color-primery);
   font-weight: 500;
   font-size: 20px;
