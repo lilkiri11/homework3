@@ -16,6 +16,7 @@ html {
   --color-section: #f4f4fd;
   --color-portfolio: #e5e5e5;
   --color-border-button: #e7e9fc;
+  --color-client-website: #8e8f99;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -209,6 +210,21 @@ img {
 .second-section {
   padding: 120px 0;
 }
+.svg-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 264px;
+  height: 112px;
+  background: var(--color-section);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.advantages-icon {
+  display: flex;
+  justify-content: center;
+}
 
 .title-text {
   margin-bottom: 72px;
@@ -290,12 +306,63 @@ img {
   letter-spacing: 0.02em;
 }
 .team-profession {
+  margin-bottom: 30px;
   color: var(--color-secondary);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-action);
+  border-radius: 50%;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--color-active-action);
+}
+
+/* Section-5 */
+.clients {
+  padding: 120px 0;
+}
+.client-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.client-sites {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: var(--background-color);
+  color: var(--color-client-website);
+}
+.client-sites:hover,
+.client-sites:focus {
+  color: var(--color-active-action);
+  border-color: #404bbf;
+}
+.client-icons {
+  fill: currentColor;
 }
 
 /* Footer */
@@ -325,6 +392,16 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.social-media-buttom {
+  display: flex;
+  justify-content: center;
+  width: 96px;
+  color: var(--background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
   letter-spacing: 0.02em;
 }
 
